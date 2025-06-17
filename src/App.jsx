@@ -30,13 +30,13 @@ function App() {
         </div>
         <div className="flex items-center justify-between">
           <button
-            className="bg-green-500 p-2 h-15 text-white"
+            className="bg-green-500 p-2 h-15 text-white cursor-pointer"
             onClick={handleIncremento}
           >
             Incrementa
           </button>
           <button
-            className="bg-red-500 p-2 h-15 text-white"
+            className="bg-red-500 p-2 h-15 text-white cursor-pointer"
             onClick={handleDecrementa}
           >
             Decrementa
